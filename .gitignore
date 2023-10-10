@@ -1,0 +1,8 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python Byte-Code Files
+__pycache__/
+
+# JetBrains IDE settings
+.idea/
