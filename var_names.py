@@ -54,3 +54,35 @@ ptsd = [
     'ptsd8'
 
 ]
+
+rapport = [
+    'rapport1',
+    'rapport2',
+    'rapport3'
+]
+
+recognition = [
+    'recognition_',
+    'recognition_justice'
+]
+
+relative = [
+    'relative_support1',
+    'relative_support2',
+    'relative_support3'
+]
+
+security = [
+    'security1',
+    'security2'
+]
+
+social_support = [
+    'social_support1',
+    'social_support2'
+]
+
+stigma = [
+    'stigma1',
+    'stigma2'
+]
