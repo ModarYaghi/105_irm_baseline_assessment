@@ -62,7 +62,7 @@ rapport = [
 ]
 
 recognition = [
-    'recognition_',
+    'recognition',
     'recognition_justice'
 ]
 
