@@ -86,3 +86,15 @@ stigma = [
     'stigma1',
     'stigma2'
 ]
+
+single_variables = [
+    'enumerator_name',
+    'location',
+    'gender',
+    'age_range',
+    'dignity',
+    'justice',
+    'network_size',
+    'trust_others'
+]
+
