@@ -1,0 +1,107 @@
+age:
+  - under_18
+  - 18-24
+  - 25-55
+  - over_55
+consent:
+  - agree
+  - disagree
+gender:
+  - male
+  - female
+  - other
+location:
+  - mersin
+  - hatay
+  - gaziantep
+  - urfa
+scale1: &scale1
+  - very_poor
+  - poor
+  - neither
+  - good
+  - very_good
+  - 888
+  - 999
+scale2: &scale2
+  - very_dissatisfied
+  - dissatisfied
+  - neither
+  - satisfied
+  - very_satisfied
+  - 888
+  - 999
+scale3: &scale3
+  - not_at_all
+  - a_little
+  - moderate_amount
+  - very_much
+  - extreme_amount
+  - 888
+  - 999
+scale4: &scale4
+  - not_at_all
+  - a_little
+  - moderately
+  - mostly
+  - completely
+  - 888
+  - 999
+scale5: &scale5
+  - never
+  - seldom
+  - quite_often
+  - very_often
+  - always
+  - 888
+  - 999
+scale6: &scale6
+  - none
+  - very_few
+  - some
+  - many
+  - very_many
+  - 888
+  - 999
+scale7: &scale7
+  - none
+  - a_little
+  - moderate_amount
+  - quite_a_lot
+  - very_much
+  - 888
+  - 999
+scale8: &scale8
+  - strongly_disagree
+  - disagree
+  - neither
+  - agree
+  - strongly_agree
+  - 888
+  - 999
+scale9: &scale9
+  - not_at_all
+  - a_little
+  - somewhat
+  - very_much
+  - totally
+  - 888
+  - 999
+yes_no: &yes_no
+  - yes
+  - no
+  - 888
+  - 999
+yes_no_somewhat: &yes_no_somewhat
+  - yes
+  - no
+  - somewhat
+  - 888
+  - 999
+housing: &housing
+  - outside
+  - camp
+  - family
+  - other_house
+  - same_house
+
