@@ -1,107 +1,225 @@
-age:
-  - under_18
-  - 18-24
-  - 25-55
-  - over_55
-consent:
-  - agree
-  - disagree
-gender:
-  - male
-  - female
-  - other
-location:
-  - mersin
-  - hatay
-  - gaziantep
-  - urfa
-scale1: &scale1
-  - very_poor
-  - poor
-  - neither
-  - good
-  - very_good
-  - 888
-  - 999
-scale2: &scale2
-  - very_dissatisfied
-  - dissatisfied
-  - neither
-  - satisfied
-  - very_satisfied
-  - 888
-  - 999
-scale3: &scale3
-  - not_at_all
-  - a_little
-  - moderate_amount
-  - very_much
-  - extreme_amount
-  - 888
-  - 999
-scale4: &scale4
-  - not_at_all
-  - a_little
-  - moderately
-  - mostly
-  - completely
-  - 888
-  - 999
-scale5: &scale5
-  - never
-  - seldom
-  - quite_often
-  - very_often
-  - always
-  - 888
-  - 999
-scale6: &scale6
-  - none
-  - very_few
-  - some
-  - many
-  - very_many
-  - 888
-  - 999
-scale7: &scale7
-  - none
-  - a_little
-  - moderate_amount
-  - quite_a_lot
-  - very_much
-  - 888
-  - 999
-scale8: &scale8
-  - strongly_disagree
-  - disagree
-  - neither
-  - agree
-  - strongly_agree
-  - 888
-  - 999
-scale9: &scale9
-  - not_at_all
-  - a_little
-  - somewhat
-  - very_much
-  - totally
-  - 888
-  - 999
-yes_no: &yes_no
-  - yes
-  - no
-  - 888
-  - 999
-yes_no_somewhat: &yes_no_somewhat
-  - yes
-  - no
-  - somewhat
-  - 888
-  - 999
-housing: &housing
-  - outside
-  - camp
-  - family
-  - other_house
-  - same_house
+categories:
+  "age":
+    - "under_18"
+    - "18-24"
+    - "25-55"
+    - "over_55"
+  "consent":
+    - "agree"
+    - "disagree"
+  "gender":
+    - "male"
+    - "female"
+    - "other"
+  "location":
+    - "mersin"
+    - "hatay"
+    - "gaziantep"
+    - "urfa"
+  "scale1":
+    - "very_poor"
+    - "poor"
+    - "neither"
+    - "good"
+    - "very_good"
+    - "888"
+    - "999"
+  "scale2":
+    - "very_dissatisfied"
+    - "dissatisfied"
+    - "neither"
+    - "satisfied"
+    - "very_satisfied"
+    - "888"
+    - "999"
+  "scale3":
+    - "not_at_all"
+    - "a_little"
+    - "moderate_amount"
+    - "very_much"
+    - "extreme_amount"
+    - "888"
+    - "999"
+  "scale4":
+    - "not_at_all"
+    - "a_little"
+    - "moderately"
+    - "mostly"
+    - "completely"
+    - "888"
+    - "999"
+  "scale5":
+    - "never"
+    - "seldom"
+    - "quite_often"
+    - "very_often"
+    - "always"
+    - "888"
+    - "999"
+  "scale6":
+    - "none"
+    - "very_few"
+    - "some"
+    - "many"
+    - "very_many"
+    - "888"
+    - "999"
+  "scale7":
+    - "none"
+    - "a_little"
+    - "moderate_amount"
+    - "quite_a_lot"
+    - "very_much"
+    - "888"
+    - "999"
+  "scale8":
+    - "strongly_disagree"
+    - "disagree"
+    - "neither"
+    - "agree"
+    - "strongly_agree"
+    - "888"
+    - "999"
+  "scale9":
+    - "not_at_all"
+    - "a_little"
+    - "somewhat"
+    - "very_much"
+    - "totally"
+    - "888"
+    - "999"
+  "yes_no":
+    - "yes"
+    - "no"
+    - "888"
+    - "999"
+  "yes_no_somewhat":
+    - "yes"
+    - "no"
+    - "somewhat"
+    - "888"
+    - "999"
+  "housing":
+    - "outside"
+    - "camp"
+    - "family"
+    - "other_house"
+    - "same_house"
 
+variables:
+  - name: "qual_life1"
+    category_set: "scale1"
+  - name: "qual_life2"
+    category_set: "scale2"
+  - name: "qual_life3"
+    category_set: "scale3"
+  - name: "qual_life4"
+    category_set: "scale3"
+  - name: "qual_life5"
+    category_set: "scale3"
+  - name: "qual_life6"
+    category_set: "scale3"
+  - name: "qual_life7"
+    category_set: "scale3"
+  - name: "qual_life8"
+    category_set: "scale3"
+  - name: "qual_life9"
+    category_set: "scale3"
+  - name: "qual_life10"
+    category_set: "scale4"
+  - name: "qual_life11"
+    category_set: "scale4"
+  - name: "qual_life12"
+    category_set: "scale4"
+  - name: "qual_life13"
+    category_set: "scale4"
+  - name: "qual_life14"
+    category_set: "scale4"
+  - name: "qual_life15"
+    category_set: "scale4"
+  - name: "qual_life16"
+    category_set: "scale2"
+  - name: "qual_life17"
+    category_set: "scale2"
+  - name: "qual_life18"
+    category_set: "scale2"
+  - name: "qual_life19"
+    category_set: "scale2"
+  - name: "qual_life23"
+    category_set: "scale2"
+  - name: "qual_life24"
+    category_set: "scale2"
+  - name: "qual_life25"
+    category_set: "scale2"
+  - name: "qual_life26"
+    category_set: "scale5"
+  - name: "co_creation1"
+    category_set: "scale9"
+  - name: "co_creation2"
+    category_set: "scale3"
+  - name: "co_creation3"
+    category_set: "scale3"
+  - name: "co_creation4"
+    category_set: "yes_no_somewhat"
+  - name: "concept1"
+    category_set: "housing"
+  - name: "concept2"
+    category_set: "scale3"
+  - name: "concept3"
+    category_set: "scale3"
+  - name: "concept4"
+    category_set: "scale3"
+  - name: "concept5"
+    category_set: "scale9"
+  - name: "concept6"
+    category_set: "scale9"
+  - name: "ptsd1"
+    category_set: "yes_no"
+  - name: "ptsd2"
+    category_set: "yes_no"
+  - name: "ptsd3"
+    category_set: "yes_no"
+  - name: "ptsd4"
+    category_set: "yes_no"
+  - name: "ptsd5"
+    category_set: "yes_no"
+  - name: "ptsd6"
+    category_set: "yes_no"
+  - name: "ptsd7"
+    category_set: "yes_no"
+  - name: "ptsd8"
+    category_set: "yes_no"
+  - name: "report1"
+    category_set: "yes_no_somewhat"
+  - name: "report2"
+    category_set: "yes_no_somewhat"
+  - name: "report3"
+    category_set: "yes_no_somewhat"
+  - name: "recognition"
+    category_set: "scale9"
+  - name: "recognition_justice"
+    category_set: "scale9"
+  - name: "relative_support1"
+    category_set: "yes_no"
+  - name: "relative_support2"
+    category_set: "scale9"
+  - name: "relative_support3"
+    category_set: "scale9"
+  - name: "security1"
+    category_set: "yes_no_somewhat"
+  - name: "social_support1"
+    category_set: "scale6"
+  - name: "social_support2"
+    category_set: "scale2"
+  - name: "stigma1"
+    category_set: "scale5"
+  - name: "stigma2"
+    category_set: "scale5"
+  - name: "dignity"
+    category_set: "scale9"
+  - name: "justice"
+    category_set: "scale9"
+  - name: "network_size"
+    category_set: "scale6"
+  - name: "trust_others"
+    category_set: "scale9"
