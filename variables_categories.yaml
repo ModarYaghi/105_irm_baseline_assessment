@@ -107,6 +107,8 @@ categories:
     - "same_house"
 
 variables:
+  - name: "age_range"
+    category_set: "age"
   - name: "qual_life1"
     category_set: "scale1"
   - name: "qual_life2"
@@ -189,11 +191,11 @@ variables:
     category_set: "yes_no"
   - name: "ptsd8"
     category_set: "yes_no"
-  - name: "report1"
+  - name: "rapport1"
     category_set: "yes_no_somewhat"
-  - name: "report2"
+  - name: "rapport2"
     category_set: "yes_no_somewhat"
-  - name: "report3"
+  - name: "rapport3"
     category_set: "yes_no_somewhat"
   - name: "recognition"
     category_set: "scale9"
